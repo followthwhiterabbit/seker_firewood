@@ -1661,10 +1661,10 @@ ul {
 	animation: bouncing 5s ease; 
 }
 
-
-
-
 }
+
+
+
 .footer .box .line i {
   font-size: 25px;
   color: var(--main-color);
@@ -1735,6 +1735,12 @@ ul {
 	animation: moving-arrow 0.5s ease; 
 }
 
+.box-upper{
+	
+animation: up-and-down 2s infinite;
+
+}
+
 .bouncing_text{
 
 	animation: bouncing 5s ease; 
@@ -1776,7 +1782,7 @@ ul {
 
 /* End Footer */
 /* Start Animation */
-@keyframes up-and-down {0%, 100%{bottom: 0;} 50%{bottom: -50px;}}
+@keyframes up-and-down {0%, 100%{bottom: 130;} 50%{bottom: 150px;}}
 
 @keyframes bouncing {0%, 10%, 20%, 50%, 80%, 100% {transform: translateY(0);} 40%,60% {transform: translateY(-15px);}}
 
